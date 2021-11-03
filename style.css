@@ -78,6 +78,7 @@ html{
   background-size: auto;
   padding-top: 413px;
   transform: scale(1,1);
+  max-width: 100%;
 }
 
 .title{
@@ -180,4 +181,13 @@ background-color: #53079e;
 }
 
 /* Main styles end*/
+
+@media (max-width: 1366px) {
+
+  .container {
+    max-width: 1050px;
+    margin: 0 auto;
+  }
+  
+}
 
